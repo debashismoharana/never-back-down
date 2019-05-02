@@ -1,5 +1,7 @@
 {
   "name": "neverBackDown",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
