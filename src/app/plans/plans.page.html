@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Plans</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let plan of plans" (click)="clickCard(plan)">
+    <ion-card-header>
+      <ion-card-subtitle>{{ plan.date }}</ion-card-subtitle>
+      <ion-card-title>{{ plan.name }}</ion-card-title>
+    </ion-card-header>
+
+    <!-- <ion-card-content>
+    </ion-card-content> -->
+  </ion-card>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>

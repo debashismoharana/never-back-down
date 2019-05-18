@@ -1,0 +1,69 @@
+{
+	"plans": [{
+		"id": 1,
+		"name": "Cricket",
+		"date": "May 15, 2019",
+		"venue": "ccc",
+		"coordinates": {
+			"lat": "ddd",
+			"long": "eee"
+		},
+		"members": {
+			"yes": [{
+				"member": "fff",
+				"comment": "hhh"
+			}, {
+				"member": "fff",
+				"comment": "hhh"
+			}],
+			"no": [{
+				"member": "fff",
+				"comment": "hhh"
+			}, {
+				"member": "fff",
+				"comment": "hhh"
+			}],
+			"mayBe": [{
+				"member": "fff",
+				"comment": "hhh"
+			}, {
+				"member": "fff",
+				"comment": "hhh"
+			}]
+		},
+		"initiatedBy": "iii"
+	}, {
+		"id": 2,
+		"name": "Trekking",
+		"date": "May 31, 2109",
+		"venue": "ccc",
+		"coordinates": {
+			"lat": "ddd",
+			"long": "eee"
+		},
+		"members": {
+			"yes": [{
+				"member": "fff",
+				"comment": "hhh"
+			}, {
+				"member": "fff",
+				"comment": "hhh"
+			}],
+			"no": [{
+				"member": "fff",
+				"comment": "hhh"
+			}, {
+				"member": "fff",
+				"comment": "hhh"
+			}],
+			"mayBe": [{
+				"member": "fff",
+				"comment": "hhh"
+			}, {
+				"member": "fff",
+				"comment": "hhh"
+			}]
+		},
+		"initiatedBy": "iii"
+	}]
+}
